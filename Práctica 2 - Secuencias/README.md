@@ -1,14 +1,14 @@
-# Práctica 1: SOS
+# Práctica 2: Secuencias
 
 
 
-## Fecha de entrega
+## Fecha de entrega:
 
 17 de noviembre del 2025
 
 
 
-## Placa
+## Placa:
 
 Arduino uno R3
 
@@ -19,6 +19,10 @@ Arduino uno R3
 * Laptop con Arduino IDE 2.3.6
 * LED externo
 
+
+## Link del video demostrativo:
+
+https://www.youtube.com/shorts/kPel47UVl5k
 
 
 ## Descripción del código:
@@ -31,26 +35,26 @@ El código usa 3 macros:
 
 
 
-### `setup()`
+### `setup()`:
 
 Simplemente cambia el modo de pin del LED a `OUTPUT`, esto para poder hacer escrituras digitales y análogas en él.
 
 
 
-### `loop()`
+### `loop()`:
 
 Emite una señal de SOS con `writeSOS()`, espera 1 segundo, emite 7 parpadeos rápidos con `writeBlink()`, espera 1 segundo, emite 1 pulso con `writePulse()` y espera 1 segundo. Después de eso, comienza una nueva iteración.
 
 
 
-### `writeSOS()`
+### `writeSOS()`:
 
 Contiene 3 bucles for para cada parte de la señal SOS:
 ... \_ \_ \_ ...
 con pausas intermedias entre cada parpadeo
 
 
-### `writeBlink`
+### `writeBlink()`:
 
 Contiene 1 bucle for con 7 iteraciones, dónde en cada una se emite un parpadeo del LED rápido.
 
