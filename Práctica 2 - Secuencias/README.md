@@ -39,7 +39,7 @@ Simplemente cambia el modo de pin del LED a `OUTPUT`, esto para poder hacer escr
 
 ### `loop()`
 
-Emite una señal de SOS con `writeSOS()`, espera 1 segundo, emite 7 parpadeos rápidos con writeBlink(), espera 1 segundo, emite 1 pulso con `writePulse()` y espera 1 segundo. Después de eso, comienza una nueva iteración.
+Emite una señal de SOS con `writeSOS()`, espera 1 segundo, emite 7 parpadeos rápidos con `writeBlink()`, espera 1 segundo, emite 1 pulso con `writePulse()` y espera 1 segundo. Después de eso, comienza una nueva iteración.
 
 
 
@@ -55,6 +55,6 @@ con pausas intermedias entre cada parpadeo
 Contiene 1 bucle for con 7 iteraciones, dónde en cada una se emite un parpadeo del LED rápido.
 
 
-## `writePulse`
+### `writePulse`
 
 Contiene 2 bucles for, que van incrementando y decrementando el brillo del LED hasta alcanzar el brillo máximo y mínimo, con una duración de 1 segundo y medio respectivamente.
