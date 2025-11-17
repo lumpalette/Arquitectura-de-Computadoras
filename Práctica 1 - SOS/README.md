@@ -25,25 +25,25 @@ Arduino uno R3
 
 El código usa 3 macros:
 
-* PIN: El número del pin dónde se encuentra el LED.
-* DELAY_FAST_TIME: El tiempo (en milisegundos) entre parpadeos del LED que deben de ir más rápido.
-* DELAY_SLOW_TIME: El tiempo (en milisegundos) entre parpadeos del LED que deben de ir más lento.
+* `PIN`: El número del pin dónde se encuentra el LED.
+* `DELAY_FAST_TIME`: El tiempo (en milisegundos) entre parpadeos del LED que deben de ir más rápido.
+* `DELAY_SLOW_TIME`: El tiempo (en milisegundos) entre parpadeos del LED que deben de ir más lento.
 
 
 
-### setup()
+### `setup()`
 
 Simplemente cambia el modo de pin del LED a `OUTPUT`, esto para poder hacer escrituras digitales en él.
 
 
 
-### loop()
+### `loop()`
 
-Emite una señal de SOS en morse continuamente usando la función writeSOS(), con pausas entre cada iteración de 1 segundo.
+Emite una señal de SOS en morse continuamente usando la función `writeSOS()`, con pausas entre cada iteración de 1 segundo.
 
 
 
-### writeSOS()
+### `writeSOS()`
 
 Contiene 3 bucles for para cada parte de la señal SOS:
 ... \_ \_ \_ ...
