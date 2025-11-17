@@ -55,6 +55,6 @@ con pausas intermedias entre cada parpadeo
 Contiene 1 bucle for con 7 iteraciones, dónde en cada una se emite un parpadeo del LED rápido.
 
 
-## `writePulse`
+### `writePulse`
 
 Contiene 2 bucles for, que van incrementando y decrementando el brillo del LED hasta alcanzar el brillo máximo y mínimo, con una duración de 1 segundo y medio respectivamente.
