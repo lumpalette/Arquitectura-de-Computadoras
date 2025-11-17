@@ -2,13 +2,13 @@
 
 
 
-## Fecha de entrega
+## Fecha de entrega:
 
 17 de noviembre del 2025
 
 
 
-## Placa
+## Placa:
 
 Arduino uno R3
 
@@ -20,7 +20,7 @@ Arduino uno R3
 * LED externo
 
 
-## Link de video demostrativo
+## Link de video demostrativo:
 
 https://www.youtube.com/shorts/QfYnHbAi9lU
 
@@ -35,19 +35,19 @@ El código usa 3 macros:
 
 
 
-### `setup()`
+### `setup()`:
 
 Simplemente cambia el modo de pin del LED a `OUTPUT`, esto para poder hacer escrituras digitales en él.
 
 
 
-### `loop()`
+### `loop()`:
 
 Emite una señal de SOS en morse continuamente usando la función `writeSOS()`, con pausas entre cada iteración de 1 segundo.
 
 
 
-### `writeSOS()`
+### `writeSOS()`:
 
 Contiene 3 bucles for para cada parte de la señal SOS:
 ... \_ \_ \_ ...
