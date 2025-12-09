@@ -19,7 +19,7 @@ Arduino uno R3
 * Laptop con Arduino IDE 2.3.6
 * LED externo
 * 11 cables
-* 4 push buttons
+* 3 push buttons
 
 
 ## Link del video demostrativo
