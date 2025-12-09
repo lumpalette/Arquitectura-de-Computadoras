@@ -52,13 +52,15 @@ Teclado matricial 4x4:
 ### Variables globales importantes:
 
 `game[3][3]`: Matriz que almacena el estado del juego ('X', 'O', '-').
+
 `turn`: Contador de turnos (1-9).
+
 `winner`: Almacena el ganador ('X', 'O', 'N' para ninguno).
 
 
 ### `setup()`:
 
-*Inicia comunicación serial a 9600 baudios.
+* Inicia comunicación serial a 9600 baudios.
 * Configura la matriz LED (intensidad, modo de funcionamiento).
 * Dibuja el tablero de Tic Tac Toe en la matriz LED.
 
